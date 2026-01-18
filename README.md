@@ -52,7 +52,7 @@ You can download the model directly from Hugging Face:
   <summary>Video 1</summary>
 
   <p align="center">
-    <video src="https://raw.githubusercontent.com/Jiaqi-Ye/Wan2.1-Vector-Video-Finetune/945d54fec0db49034e0cbe5742c88e1971b04a8a/Example_Video/video1.mp4" width="900" controls></video>
+    <video src="https://github.com/user-attachments/assets/41b39dac-3097-4f94-8395-fa34d80dc69a" width="900" controls></video>
   </p>
 </details>
 
@@ -60,7 +60,7 @@ You can download the model directly from Hugging Face:
   <summary>Video 2</summary>
 
   <p align="center">
-    <video src="https://raw.githubusercontent.com/Jiaqi-Ye/Wan2.1-Vector-Video-Finetune/945d54fec0db49034e0cbe5742c88e1971b04a8a/Example_Video/video2.mp4" width="900" controls></video>
+    <video src="[https://raw.githubusercontent.com/Jiaqi-Ye/Wan2.1-Vector-Video-Finetune/945d54fec0db49034e0cbe5742c88e1971b04a8a/Example_Video/video2.mp4](https://github.com/user-attachments/assets/4b09e776-bd01-473c-a291-396f86787de4)" width="900" controls></video>
   </p>
 </details>
 
@@ -68,7 +68,7 @@ You can download the model directly from Hugging Face:
   <summary>Video 3</summary>
 
   <p align="center">
-    <video src="https://raw.githubusercontent.com/Jiaqi-Ye/Wan2.1-Vector-Video-Finetune/945d54fec0db49034e0cbe5742c88e1971b04a8a/Example_Video/video3.mp4" width="900" controls></video>
+    <video src="[https://raw.githubusercontent.com/Jiaqi-Ye/Wan2.1-Vector-Video-Finetune/945d54fec0db49034e0cbe5742c88e1971b04a8a/Example_Video/video3.mp4](https://github.com/user-attachments/assets/f682a206-c2d5-472c-b639-de0030078243)" width="900" controls></video>
   </p>
 </details>
 
