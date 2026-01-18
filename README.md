@@ -1,5 +1,4 @@
 
-你说：
 # Tiger vector styled animation Lora Model
 
 The **tiger Lora Model** is a **LoRA model** fine-tuned for **Wan 2.1**, designed to generate high-quality images of anime-style **tiger** characters.
@@ -51,8 +50,9 @@ You can download the model directly from Hugging Face:
 ### Prompt:
 "tigersticker_unique001, adorable tiger cub, fluffy fur, playful and dynamic pose, smiling, soft lighting, smooth animation style, cute cartoon style, centered composition, simple white background, solo"
 
+
 <p align="center">
-  <video src="https://raw.githubusercontent.com/Jiaqi-Ye/Wan2.1-Vector-Video-Finetune/945d54fec0db49034e0cbe5742c88e1971b04a8a/Example_Video/video1.mp4" width="300" controls></video>
-  <video src="https://raw.githubusercontent.com/Jiaqi-Ye/Wan2.1-Vector-Video-Finetune/945d54fec0db49034e0cbe5742c88e1971b04a8a/Example_Video/video2.mp4" width="300" controls></video>
-  <video src="https://raw.githubusercontent.com/Jiaqi-Ye/Wan2.1-Vector-Video-Finetune/945d54fec0db49034e0cbe5742c88e1971b04a8a/Example_Video/video3.mp4" width="300" controls></video>
+  <video src="https://github.com/user-attachments/assets/41b39dac-3097-4f94-8395-fa34d80dc69a" width="300" controls></video>
+  <video src="https://github.com/user-attachments/assets/4b09e776-bd01-473c-a291-396f86787de4" width="300" controls></video>
+  <video src="https://github.com/user-attachments/assets/f682a206-c2d5-472c-b639-de0030078243" width="300" controls></video>
 </p>
