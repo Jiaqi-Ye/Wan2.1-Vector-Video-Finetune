@@ -1,19 +1,24 @@
-# Kokomi Lora Model
+# Tiger vector styled animation Lora Model
 
-The **Kokomi Lora Model** is a **LoRA model** fine-tuned for **Stable Diffusion 1.5**, designed to generate high-quality images of anime-style **Sangonomiya Kokomi** characters.
+The **tiger Lora Model** is a **LoRA model** fine-tuned for **Wan 2.1**, designed to generate high-quality images of anime-style **tiger** characters.
 
-This model is compatible with **SD WebUI** and **ComfyUI** and is available on **Hugging Face**.
+This model is compatible with  **ComfyUI** and is available on **Hugging Face**.
 
 <br>
 
+## Notebook Details
+
+this notebook include wan 2.1 1.3B T2I T2V V2V reference testing and vector styled video lora tuning script.
+You can read official readme lora tuning.md learn about the script and you can also try to train a wan 2.1 lora model by yourself with the google colab notebook .py doc.
+
 ## Model Details
 
-- **Model Name**: Kokomi Lora Model
+- **Model Name**: tiger Lora Model
 - **Model Type**: LoRA
-- **Base Model**: Stable Diffusion 1.5
-- **Training Data**: 20 high-quality images of Kokomi with detailed tagging
-- **Optimized Features**: pink hair + blue-purple gradient dress
-- **Release Date**: 2025.03.13
+- **Base Model**: wan 2.1- 1.3B
+- **Training Data**: 16 high-quality images of Kokomi with detailed tagging
+- **Optimized Features**: orange fat tiger
+- **Release Date**: 2026.01.18
 - **Hugging Face Repository**: [Kokomi Lora Model on Hugging Face](https://huggingface.co/jye224/Kokomi)
 
 <br>
