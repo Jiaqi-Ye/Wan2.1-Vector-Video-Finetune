@@ -1,82 +1,58 @@
-# Tiger vector styled animation Lora Model
+# Tiger Vector-Style Animation LoRA Model
 
-The **tiger Lora Model** is a **LoRA model** fine-tuned for **Wan 2.1**, designed to generate high-quality images of anime-style **tiger** characters.
+The **Tiger LoRA Model** is a **LoRA fine-tuned model for Wan 2.1**, specifically designed to generate **high-quality anime-style tiger characters** with a vector animation aesthetic.  
 
-This model is compatible with  **ComfyUI** and is available on **Hugging Face**.
+It is fully compatible with **ComfyUI** and is hosted on **Hugging Face**.
 
-<br>
+---
 
-## Notebook Details
+## Notebook Overview
 
-this notebook include wan 2.1 1.3B T2I T2V V2V reference testing and vector styled video lora tuning script.
-You can read official readme lora tuning.md learn about the script and you can also try to train a wan 2.1 lora model by yourself with the google colab notebook .py doc.
+This notebook includes scripts for **Wan 2.1 1.3B T2I, T2V, and V2V reference testing**, as well as **vector-style video LoRA tuning**.  
+
+You can refer to the official **LoRA Tuning.md** to learn how the script works, and you can also **train your own Wan 2.1 LoRA model** using the provided Google Colab notebook (`.py`) file.
+
+---
 
 ## Model Details
 
-- **Model Name**: tiger Lora Model
-- **Model Type**: LoRA
-- **Base Model**: wan 2.1- 1.3B
-- **Training Data**: 16 high-quality images of Kokomi with detailed tagging
-- **Optimized Features**: orange fat tiger
-- **Release Date**: 2026.01.18
-- **Hugging Face Repository**: [Kokomi Lora Model on Hugging Face](https://huggingface.co/jye224/Kokomi)
+- **Model Name:** Tiger LoRA Model  
+- **Model Type:** LoRA  
+- **Base Model:** Wan 2.1 – 1.3B  
+- **Training Data:** 16 high-quality images of Kokomi with detailed annotations  
+- **Optimized Features:** Orange, chubby tiger character  
+- **Release Date:** 2026.01.18  
+- **Hugging Face Repository:** [Kokomi LoRA Model on Hugging Face](https://huggingface.co/jye224/Kokomi)
 
-<br>
+---
 
-## Get Started
+## Getting Started
 
 ### Load the Model
 
 #### Download from Hugging Face
 
-You can download the model directly from Hugging Face:
+You can download the model directly from Hugging Face here:  
+[Kokomi LoRA Model on Hugging Face](https://huggingface.co/jye224/Kokomi)
 
-[Kokomi Lora Model on Hugging Face](https://huggingface.co/jye224/Kokomi)
+---
 
-<br>
-
-## Kokomi Character
+## Kokomi Character Example
 
 <p align="center">
 <img src="example_dataset/train/09.png" width="600" />
 </p>
 
-<br>
+---
 
-## Example
+## Sample Prompt
 
-### Prompt:
-"tigersticker_unique001, adorable tiger cub, fluffy fur, playful and dynamic pose, smiling, soft lighting, smooth animation style, cute cartoon style, centered composition, simple white background, solo"
+**Prompt Example:**  
+`tigersticker_unique001, adorable tiger cub, fluffy fur, playful and dynamic pose, smiling, soft lighting, smooth animation style, cute cartoon style, centered composition, simple white background, solo`
 
-<details>
-  <summary>Video 1</summary>
+<p align="center">
+  <video src="https://raw.githubusercontent.com/Jiaqi-Ye/Wan2.1-Vector-Video-Finetune/945d54fec0db49034e0cbe5742c88e1971b04a8a/Example_Video/video1.mp4" width="300" controls></video>
+  <video src="https://raw.githubusercontent.com/Jiaqi-Ye/Wan2.1-Vector-Video-Finetune/945d54fec0db49034e0cbe5742c88e1971b04a8a/Example_Video/video2.mp4" width="300" controls></video>
+  <video src="https://raw.githubusercontent.com/Jiaqi-Ye/Wan2.1-Vector-Video-Finetune/945d54fec0db49034e0cbe5742c88e1971b04a8a/Example_Video/video3.mp4" width="300" controls></video>
+</p>
 
-  <p align="center">
-    <video src="https://github.com/user-attachments/assets/41b39dac-3097-4f94-8395-fa34d80dc69a" width="900" controls></video>
-  </p>
-</details>
-
-<details>
-  <summary>Video 2</summary>
-
-  <p align="center">
-    <video src="[https://raw.githubusercontent.com/Jiaqi-Ye/Wan2.1-Vector-Video-Finetune/945d54fec0db49034e0cbe5742c88e1971b04a8a/Example_Video/video2.mp4](https://github.com/user-attachments/assets/4b09e776-bd01-473c-a291-396f86787de4)" width="900" controls></video>
-  </p>
-</details>
-
-<details>
-  <summary>Video 3</summary>
-
-  <p align="center">
-    <video src="[https://raw.githubusercontent.com/Jiaqi-Ye/Wan2.1-Vector-Video-Finetune/945d54fec0db49034e0cbe5742c88e1971b04a8a/Example_Video/video3.mp4](https://github.com/user-attachments/assets/f682a206-c2d5-472c-b639-de0030078243)" width="900" controls></video>
-  </p>
-</details>
-
-
-
-
-## License
-
-- This model is for research and educational purposes only.
-- Do not use it for commercial purposes.
-- For issues or suggestions, please open a discussion in GitHub Issues.
