@@ -1,7 +1,7 @@
 import torch
 from diffsynth import ModelManager, WanVideoPipeline, save_video
 
-# 加载模型
+# Load base models
 model_manager = ModelManager(torch_dtype=torch.bfloat16, device="cuda")
 model_manager.load_models([
     "models/Wan-AI/Wan2.1-T2V-1.3B/diffusion_pytorch_model.safetensors",
@@ -9,13 +9,13 @@ model_manager.load_models([
     "models/Wan-AI/Wan2.1-T2V-1.3B/Wan2.1_VAE.pth",
 ])
 
-# 加载 LoRA 微调权重（可选）
+# Load LoRA fine-tuned weights (optional)
 model_manager.load_lora("models/lightning_logs/version_1/checkpoints/epoch=0-step=500.ckpt", lora_alpha=1.5)
 
 pipe = WanVideoPipeline.from_model_manager(model_manager, device="cuda")
 pipe.enable_vram_management(num_persistent_param_in_dit=None)
 
-# 生成视频
+# Generate video
 video = pipe(
     prompt=(
       "tigersticker_unique001, adorable tiger cub, surprised expression, small character, distant view, zoomed out, camera pulled back,full body in frame, whole character visible, mouth slightly open, raised eyebrows, fluffy fur, pure black eyes, no eye highlights, chibi cartoon style, centered composition, lots of negative space, clean white background, sticker style, emoji style, solo" 
@@ -34,4 +34,5 @@ video = pipe(
 )
 
 save_video(video, "video.mp4", fps=30, quality=5)
+
 
