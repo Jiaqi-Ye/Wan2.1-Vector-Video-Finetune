@@ -46,25 +46,21 @@ You can download the model directly from Hugging Face:
 ## Example
 
 ### Prompt:
-<lora:kokomi-v1:1>, 1 girl, Sangonomiya Kokomi, gloves, pink hair, 
-light blue gradient at the end of the hair, solo, hair in the shape of a bow, 
-smiling, open mouth, bangs, violet eyes, long hair, white gloves, ocean background, 
-fringed sleeves, droplets, wide sleeves, looking at the viewer, bow, fine. 
-8K, HD
+"tigersticker_unique001, adorable tiger cub, fluffy fur, playful and dynamic pose, smiling, soft lighting, smooth animation style, cute cartoon style, centered composition, simple white background, solo"
 
 <p align="center">
-  <img src="https://github.com/Jiaqi-Ye/Kokomi-Lora-Model/blob/main/image/1.jpg" width="900" />
+  <video src="Example_Video/video1.mp4" width="900" controls></video>
 </p>
 
 <p align="center">
-  <img src="https://github.com/Jiaqi-Ye/Kokomi-Lora-Model/blob/main/image/2.jpg" width="900" />
+  <video src="Example_Video/video2.mp4" width="900" controls></video>
 </p>
-
 <p align="center">
-  <img src="https://github.com/Jiaqi-Ye/Kokomi-Lora-Model/blob/main/image/3.jpg" width="900" />
+  <video src="Example_Video/video3.mp4" width="900" controls></video>
 </p>
 
 <br>
+
 
 ## License
 
