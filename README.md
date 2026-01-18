@@ -53,6 +53,10 @@ You can download the model directly from Hugging Face:
 <table align="center">
   <tr>
     <td>
+      <video src="https://github.com/user-attachments/assets/77b89454-2a26-4801-a4f8-6edc7031396f" width="300" controls></video>
+    </td>
+    <td style="font-size: 40px; text-align: center;">→</td>
+    <td>
       <video src="https://github.com/user-attachments/assets/41b39dac-3097-4f94-8395-fa34d80dc69a" width="300" controls></video>
     </td>
     <td>
@@ -63,5 +67,6 @@ You can download the model directly from Hugging Face:
     </td>
   </tr>
 </table>
+
 
 
