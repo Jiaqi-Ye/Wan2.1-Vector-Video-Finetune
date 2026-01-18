@@ -48,19 +48,31 @@ You can download the model directly from Hugging Face:
 ### Prompt:
 "tigersticker_unique001, adorable tiger cub, fluffy fur, playful and dynamic pose, smiling, soft lighting, smooth animation style, cute cartoon style, centered composition, simple white background, solo"
 
-<p align="center">
-  <video src="https://raw.githubusercontent.com/Jiaqi-Ye/Wan2.1-Vector-Video-Finetune/945d54fec0db49034e0cbe5742c88e1971b04a8a/Example_Video/video1.mp4" width="900" controls></video>
-</p>
+<details>
+  <summary>Video 1</summary>
+
+  <p align="center">
+    <video src="https://raw.githubusercontent.com/Jiaqi-Ye/Wan2.1-Vector-Video-Finetune/945d54fec0db49034e0cbe5742c88e1971b04a8a/Example_Video/video1.mp4" width="900" controls></video>
+  </p>
+</details>
+
+<details>
+  <summary>Video 2</summary>
+
+  <p align="center">
+    <video src="https://raw.githubusercontent.com/Jiaqi-Ye/Wan2.1-Vector-Video-Finetune/945d54fec0db49034e0cbe5742c88e1971b04a8a/Example_Video/video2.mp4" width="900" controls></video>
+  </p>
+</details>
+
+<details>
+  <summary>Video 3</summary>
+
+  <p align="center">
+    <video src="https://raw.githubusercontent.com/Jiaqi-Ye/Wan2.1-Vector-Video-Finetune/945d54fec0db49034e0cbe5742c88e1971b04a8a/Example_Video/video3.mp4" width="900" controls></video>
+  </p>
+</details>
 
 
-<p align="center">
-  <video src="Example_Video/video2.mp4" width="900" controls></video>
-</p>
-<p align="center">
-  <video src="Example_Video/video3.mp4" width="900" controls></video>
-</p>
-
-<br>
 
 
 ## License
