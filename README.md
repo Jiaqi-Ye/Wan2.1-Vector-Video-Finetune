@@ -38,7 +38,7 @@ You can download the model directly from Hugging Face:
 ## Kokomi Character
 
 <p align="center">
-<img src="https://github.com/Jiaqi-Ye/Kokomi-Lora-Model/blob/main/image/kokomi.jpg" width="600" />
+<img src="example_dataset/train/09.png" width="600" />
 </p>
 
 <br>
