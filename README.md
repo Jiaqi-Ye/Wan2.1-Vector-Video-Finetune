@@ -49,7 +49,7 @@ You can download the model directly from Hugging Face:
 "tigersticker_unique001, adorable tiger cub, fluffy fur, playful and dynamic pose, smiling, soft lighting, smooth animation style, cute cartoon style, centered composition, simple white background, solo"
 
 <p align="center">
-  <video src="Example_Video/video1.mp4" width="900" controls></video>
+  <video src="[Example_Video/video1.mp4](https://raw.githubusercontent.com/Jiaqi-Ye/Wan2.1-Vector-Video-Finetune/945d54fec0db49034e0cbe5742c88e1971b04a8a/Example_Video/video1.mp4)" width="900" controls></video>
 </p>
 
 <p align="center">
