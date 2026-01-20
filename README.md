@@ -1,4 +1,3 @@
-
 # Tiger vector styled animation Lora Model
 
 The **tiger Lora Model** is a **LoRA model** fine-tuned for **Wan 2.1**, designed to generate high-quality images of anime-style **tiger** characters.
