@@ -1,13 +1,8 @@
 # Controllable Vector Video Generation via Wan 2.1 Fine-Tuning
 
-**Jun. 2025 – Present**  
-Research Assistant, Prof. XXXX  
-University of Wisconsin–Madison
-
 This repository presents a **parameter-efficient framework for controllable vector-style video generation** by fine-tuning **Wan 2.1 (1.3B)** video diffusion models using **LoRA**.  
 Our goal is to enable **prompt-controllable, temporally consistent vector animations** under **limited GPU memory constraints**, making stylized video generation feasible on consumer-grade hardware.
 
----
 
 ## Overview
 
@@ -17,7 +12,6 @@ Our goal is to enable **prompt-controllable, temporally consistent vector animat
 - **Tasks**: Text-to-Image (T2I), Text-to-Video (T2V), Video-to-Video (V2V)  
 - **Focus**: Vector-style animation, shape consistency, controllable motion  
 
----
 
 ## Key Contributions
 
@@ -27,7 +21,6 @@ Our goal is to enable **prompt-controllable, temporally consistent vector animat
 - Improved **temporal consistency by ~25%** compared to baseline Wan 2.1 generation.
 - Demonstrated effective **LoRA fine-tuning under 8–16 GB VRAM constraints**.
 
----
 
 ## Method Summary
 
@@ -39,7 +32,6 @@ We build upon **DiffSynth-Studio** and apply **LoRA-based fine-tuning** to Wan 2
 
 To stabilize stylized video generation, we introduce **layer-wise vector supervision**, which improves shape preservation and reduces temporal drift across frames.
 
----
 
 ## Training Setup
 
@@ -55,8 +47,6 @@ To stabilize stylized video generation, we introduce **layer-wise vector supervi
 - Steps per epoch: 500  
 - Epochs: 5  
 
----
-
 ## Experimental Insights
 
 - **Wan 2.1 (1.3B)** provides the best trade-off between quality and memory efficiency.
@@ -64,7 +54,6 @@ To stabilize stylized video generation, we introduce **layer-wise vector supervi
 - **LoRA rank = 16** significantly improves character identity and vector-style consistency.
 - Wan 2.2 (5B) exceeds the feasible memory limit on 8 GB GPUs and results in OOM during inference.
 
----
 
 ## Tiger Vector LoRA Model
 
@@ -78,7 +67,28 @@ The **Tiger Vector LoRA Model** is a LoRA adapter fine-tuned on **Wan 2.1**, des
 **Hugging Face**:  
 [Kokomi Lora Model on Hugging Face](https://huggingface.co/jye224/Kokomi)
 
----
 
 ## Example Prompt
+
+<p align="center">
+<img src="example_dataset/train/09.png" width="600" />
+</p>
+
+<table align="center">
+  <tr>
+    <td>
+      <video src="https://github.com/user-attachments/assets/77b89454-2a26-4801-a4f8-6edc7031396f" width="300" controls></video>
+    </td>
+    <td style="font-size: 40px; text-align: center;">→</td>
+    <td>
+      <video src="https://github.com/user-attachments/assets/41b39dac-3097-4f94-8395-fa34d80dc69a" width="300" controls></video>
+    </td>
+    <td>
+      <video src="https://github.com/user-attachments/assets/4b09e776-bd01-473c-a291-396f86787de4" width="300" controls></video>
+    </td>
+    <td>
+      <video src="https://github.com/user-attachments/assets/f682a206-c2d5-472c-b639-de0030078243" width="300" controls></video>
+    </td>
+  </tr>
+</table>
 
