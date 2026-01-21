@@ -65,30 +65,48 @@ The **Tiger Vector LoRA Model** is a LoRA adapter fine-tuned on **Wan 2.1**, des
 - **Release Date**: 2026-01-18  
 
 **Hugging Face**:  
-[Kokomi Lora Model on Hugging Face](https://huggingface.co/jye224/Kokomi)
+[[Kokomi Lora Model on Hugging Face](https://huggingface.co/jye224/Kokomi)](https://huggingface.co/jye224/Wan2.1_T2V_Tiger)
 
 
 ## Example Prompt
 
+We demonstrate the effectiveness of our method on **T2V Tiger**, a stylized fat tiger character designed to evaluate **shape preservation, motion stability, and prompt controllability** in vector-style text-to-video generation.
+
 <p align="center">
-<img src="example_dataset/train/09.png" width="600" />
+  <img src="https://github.com/user-attachments/assets/0d245662-4c74-4525-b561-90e267ddb739" width="600" />
 </p>
+
+**Prompt**
+
+tigersticker_unique001, adorable tiger cub, fluffy fur, playful and dynamic pose,
+smiling, soft lighting, smooth animation style, cute cartoon style,
+centered composition, simple white background, solo
 
 <table align="center">
   <tr>
-    <td>
+    <td align="center">
       <video src="https://github.com/user-attachments/assets/77b89454-2a26-4801-a4f8-6edc7031396f" width="300" controls></video>
+      <br />
+      <sub>Input / Reference</sub>
     </td>
-    <td style="font-size: 40px; text-align: center;">→</td>
-    <td>
+    <td style="font-size: 36px; text-align: center;">→</td>
+    <td align="center">
       <video src="https://github.com/user-attachments/assets/41b39dac-3097-4f94-8395-fa34d80dc69a" width="300" controls></video>
+      <br />
+      <sub>Generated Clip A</sub>
     </td>
-    <td>
+    <td align="center">
       <video src="https://github.com/user-attachments/assets/4b09e776-bd01-473c-a291-396f86787de4" width="300" controls></video>
+      <br />
+      <sub>Generated Clip B</sub>
     </td>
-    <td>
+    <td align="center">
       <video src="https://github.com/user-attachments/assets/f682a206-c2d5-472c-b639-de0030078243" width="300" controls></video>
+      <br />
+      <sub>Generated Clip C</sub>
     </td>
   </tr>
 </table>
 
+**Observation.**  
+The generated videos preserve clean vector-style outlines and consistent character identity across frames, while exhibiting diverse motion patterns driven solely by the text prompt. This highlights the effectiveness of LoRA-based fine-tuning for controllable vector-style video generation under limited computational budgets.
