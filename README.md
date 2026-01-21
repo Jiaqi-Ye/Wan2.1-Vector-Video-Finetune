@@ -65,7 +65,7 @@ The **Tiger Vector LoRA Model** is a LoRA adapter fine-tuned on **Wan 2.1**, des
 - **Release Date**: 2026-01-18  
 
 **Hugging Face**:  
-[[Kokomi Lora Model on Hugging Face](https://huggingface.co/jye224/Kokomi)](https://huggingface.co/jye224/Wan2.1_T2V_Tiger)
+(https://huggingface.co/jye224/Wan2.1_T2V_Tiger)
 
 
 ## Example Prompt
