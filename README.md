@@ -87,7 +87,7 @@ centered composition, simple white background, solo
     <td align="center">
       <video src="https://github.com/user-attachments/assets/77b89454-2a26-4801-a4f8-6edc7031396f" width="300" controls></video>
       <br />
-      <sub>Input / Reference</sub>
+      <sub>Model output before LoRA fine-tuning</sub>
     </td>
     <td style="font-size: 36px; text-align: center;">→</td>
     <td align="center">
